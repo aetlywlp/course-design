@@ -9,5 +9,5 @@ Leehaoxuan's course design with unitree go2edu dog and piper, specifically, is s
 2. [UMI on Legs: Making Manipulation Policies Mobile with Manipulation-Centric Whole-body Controllers](https://arxiv.org/abs/2407.10353) ：CoRL spotlight，分离了操作的policy（使用了dp）和loco，使用操作预测末端位置并且使用whole body跟踪轨迹，其中操作策略是在4090上面跑的，我觉得可以尝试替换为rdt2，wbc控制器大概率要重新训练
 3. [RDT2](https://rdt-robotics.github.io/rdt2/#)对夹爪和相机有要求，但是支持zeroshot的部署，RDT2VQ支持RL后训练
 4. [Visual Whole-Body Control for Legged Loco-Manipulation](https://arxiv.org/abs/2403.16967):CoRL Oral
-5. [Learning coordinated badminton skills forlegged manipulators](https://www.science.org/doi/epdf/10.1126/scirobotics.adu3922):science robotics
+5. [Learning coordinated badminton skills forlegged manipulators](https://www.science.org/doi/epdf/10.1126/scirobotics.adu3922):science robotics:完全闭环，policy模块使用常规的输入输出和mlp但是使用非对称AC架构，感知模块比较strong
   
